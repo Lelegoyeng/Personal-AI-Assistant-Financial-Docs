@@ -20,25 +20,18 @@ Sebelum memulai, pastikan Anda memiliki:
 
 ### ⚙️ Instalasi
 
-1.  **Clone repository ini:**
-
-    ```bash
-    git clone https://github.com/Lelegoyeng/Personal-AI-Assistant-Financial-Report
-    cd Personal-AI-Assistant-Financial-Report
-    ```
-
-2.  **Install dependensi:**
+1.  **Install dependensi:**
 
     ```bash
     pnpm install
     ```
 
-3.  **Siapkan kredensial Google Sheets:**
+2.  **Siapkan kredensial Google Sheets:**
 
     - Ikuti panduan [ini](https://docs.sheetjs.com/docs/getting-started/installation/nodejs#service-account) untuk membuat akun layanan dan mengunduh file kredensial JSON.
     - Ganti nama file JSON menjadi `credentials.json` dan letakkan di direktori `src`.
 
-4.  **Konfigurasi variabel lingkungan:**
+3.  **Konfigurasi variabel lingkungan:**
 
     - Salin `.env.example.js` menjadi `.env`.
     - Isi variabel yang diperlukan, seperti `OPENAI_API_KEY` dan `SPREADSHEET_ID`.
